@@ -12,9 +12,9 @@ void loop() {
   int ldr2 = analogRead(LDR2_PIN);
 
   // Output readings
-  Serial.print("LDR1: ");
+  Serial.print("LDR1:");
   Serial.print(ldr1);
-  Serial.print(" | LDR2: ");
+  Serial.print("\tLDR2:");
   Serial.println(ldr2);
 
   delay(100);
