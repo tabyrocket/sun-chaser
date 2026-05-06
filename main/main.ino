@@ -18,7 +18,7 @@ const int DEFAULT_POS   = 90;
 
 const int EEPROM_ADDR   = 0;
 
-// NEW: EEPROM timing
+// EEPROM timing
 const unsigned long EEPROM_DELAY = 5000; // 5 seconds
 
 Servo horizontalServo;
@@ -51,7 +51,7 @@ void setup() {
   ldr1 = analogRead(LDR1_PIN);
   ldr2 = analogRead(LDR2_PIN);
 
-  lastMoveTime = millis(); // initialise
+  lastMoveTime = millis();
 
   Serial.print("Sun Chaser --- Initialized at Position: ");
   Serial.println(currentPos);
