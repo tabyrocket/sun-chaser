@@ -7,7 +7,7 @@ const int LDR2_PIN      = A2;
 const int SERVO_PIN     = 9;
 
 const float TOLERANCE_RATIO = 0.08;
-const float KP              = 0.01;
+const float KP              = 0.1;
 
 const int LOOP_INTERVAL     = 50;
 const int DEBUG_INTERVAL    = 100;
